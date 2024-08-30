@@ -1,4 +1,5 @@
 {
+  "homepage": "https://blackstarzck.github.io/bridge",
   "name": "threejs-study",
   "version": "1.0.0",
   "description": "",
@@ -6,6 +7,7 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress",
     "start": "webpack serve --progress",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
