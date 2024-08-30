@@ -11,7 +11,7 @@ export class Player extends Stuff {
     this.depth = 0.5;
 
     cm1.gltfLoader.load(
-      'models/ilbuni.glb',
+      './models/ilbuni.glb',
       glb => {
         glb.scene.traverse(child => {
           if(child.isMesh){
